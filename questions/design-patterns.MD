@@ -228,6 +228,8 @@ Proxy is about creating a substitute class that has the same interface as an ori
     <summary>
         Answer
     </summary>
+    
+The Iterator pattern provides a mechanism to access the elements of an aggregate object or container sequentially without knowledge of the underlying structure of the object being iterated over. See the [C2 wiki Iterator pattern article](http://wiki.c2.com/?IteratorPattern) for further reading.
 
 </details>
 

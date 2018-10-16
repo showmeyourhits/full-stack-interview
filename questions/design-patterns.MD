@@ -214,7 +214,9 @@ Proxy is about creating a substitute class that has the same interface as an ori
     <summary>
         Answer
     </summary>
+The command pattern is a behavioral design pattern that intends to encapsulate in an object all the data required for performing a given action (command), including what method to call, the method’s arguments, and the object to which the method belongs.
 
+This model allows us to decouple objects that produce the commands from their consumers, so that’s why the pattern is commonly known as the producer-consumer pattern.
 </details>
 
 ### 20. What is _Interpreter_ pattern?

@@ -290,7 +290,7 @@ State is a behavorial pattern that allows it's behavior to be changed depending 
     <summary>
         Answer
     </summary>
-
+Strategy is a behavioral software design pattern that enables selecting an algorithm at runtime. Instead of implementing a single algorithm directly, code receives run-time instructions as to which in a family of algorithms to use.
 </details>
 
 ### 28. What is _Template method_ pattern?

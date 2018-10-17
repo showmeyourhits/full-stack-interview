@@ -1,8 +1,8 @@
 <h1 align="center">
 Full Stack Interview Questions & Answers
 </h1>
-<p align="center"> 
-    <img src="https://github.com/monkey3310/full-stack-interview/blob/master/assets/startup-life.svg" alt="Full Stack Interview Q & A" width="400"/>    
+<p align="center">
+    <img src="https://github.com/monkey3310/full-stack-interview/blob/master/assets/startup-life.svg" alt="Full Stack Interview Q & A" width="400"/>
 </p>
 
 ## What is this?

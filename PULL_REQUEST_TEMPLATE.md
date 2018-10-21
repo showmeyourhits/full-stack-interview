@@ -1,4 +1,4 @@
-### Thanks a lot for your contribiution! :clap:
+### Thanks a lot for your contribution! :clap:
 ### Make sure those boxes are checked for each Pull Request:
 
 - [ ] Spellcheck done

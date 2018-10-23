@@ -31,7 +31,7 @@ No adds, no disturbing crap. Just learning materials.
 
 ## Data languages / technologies / frameworks
 
-1. SQL
+1. [SQL](.questions/sql.MD) - 9 interview questions
 
 # Contributing
 

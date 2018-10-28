@@ -167,8 +167,8 @@ HOC are custom components which wrap another component within it. They can accep
 
 </details>
 
-### 13. What are HOCs used for?
-
+### 13. What are HOCs used for? :star:
+ 
 <details>
     <summary>
         Answer

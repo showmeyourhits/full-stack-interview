@@ -273,6 +273,36 @@ The Iterator pattern provides a mechanism to access the elements of an aggregate
         Answer
     </summary>
 
+Observer is design pattern in which one single object (Subject) notifies an open ended number of listener-objects (Observers) about any updates by calling their methods. Observer pattern widely adopted in event driven systems and lies in the base of MVC architectural pattern.
+
+Simplest example of this pattern in python:
+```python
+class Observable:
+    def __init__(self):
+        self.__observers = []
+    
+    def register_observer(self, observer):
+        self.__observers.append(observer)
+    
+    def notify_observers(self, *args, **kwargs):
+        for observer in self.__observers:
+            observer.notify(self, *args, **kwargs)
+
+class Observer:
+    def __init__(self, observable):
+        observable.register_observer(self)
+    
+    def notify(self, observable, *args, **kwargs):
+        print('Got', args, kwargs, 'From', observable)
+
+
+subject = Observable()
+observer = Observer(subject)
+subject.notify_observers('test')
+```
+
+Further reading: [Observer pattern](https://en.wikipedia.org/wiki/Observer_pattern)
+
 </details>
 
 ### 26. What is _State_ pattern?

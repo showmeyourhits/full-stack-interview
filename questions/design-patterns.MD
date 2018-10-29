@@ -264,6 +264,12 @@ The Iterator pattern provides a mechanism to access the elements of an aggregate
         Answer
     </summary>
 
+Null object is an object that has certain neutral ("do nothing") behavior. This design pattern describes the usage of such objects and their behavior.
+
+In many OO languages objects can have null value and checking objects for absence of value (NULL value) can become very tedious and make the code more complex. Null object pattern allows developer incapsulate this checks by replacing NULL value with an object that "does nothing", removing special cases handling.
+
+Futher reading: [Null object Pattern](https://en.wikipedia.org/wiki/Null_object_pattern)
+
 </details>
 
 ### 25. What is _Observer_ pattern?
